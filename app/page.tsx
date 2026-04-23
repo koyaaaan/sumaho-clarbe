@@ -173,7 +173,6 @@ export default function Home() {
           <ShareButton
             selectedIds={state.selectedIds}
             highlightDiffs={state.highlightDiffs}
-        onSelectPreset={handleSelectPreset}
           />
           <SelectedDevices
             devices={selectedDevices}
