@@ -1,0 +1,602 @@
+[
+  {
+    "id": "galaxy-s26",
+    "brandId": "samsung",
+    "name": "Galaxy S26",
+    "releaseDate": "2026-01-22",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s26.webp"
+  },
+  {
+    "id": "galaxy-s26-plus",
+    "brandId": "samsung",
+    "name": "Galaxy S26+",
+    "releaseDate": "2026-01-22",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s26-plus.webp"
+  },
+  {
+    "id": "galaxy-s26-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S26 Ultra",
+    "releaseDate": "2026-01-22",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s26-ultra.webp"
+  },
+  {
+    "id": "iphone-17-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 17 Pro Max",
+    "releaseDate": "2025-09-19",
+    "region": "jp",
+    "imageUrl": "/images/iphone-17-pro-max.webp"
+  },
+  {
+    "id": "iphone-17-pro",
+    "brandId": "apple",
+    "name": "iPhone 17 Pro",
+    "releaseDate": "2025-09-19",
+    "region": "jp",
+    "imageUrl": "/images/iphone-17-pro.webp"
+  },
+  {
+    "id": "iphone-17",
+    "brandId": "apple",
+    "name": "iPhone 17",
+    "releaseDate": "2025-09-19",
+    "region": "jp",
+    "imageUrl": "/images/iphone-17.webp"
+  },
+  {
+    "id": "iphone-air",
+    "brandId": "apple",
+    "name": "iPhone Air",
+    "releaseDate": "2025-09-19",
+    "region": "jp",
+    "imageUrl": "/images/iphone-air.webp"
+  },
+  {
+    "id": "galaxy-z-flip7",
+    "brandId": "samsung",
+    "name": "Galaxy Z Flip7",
+    "releaseDate": "2025-07-25",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-flip7.webp"
+  },
+  {
+    "id": "galaxy-z-fold7",
+    "brandId": "samsung",
+    "name": "Galaxy Z Fold7",
+    "releaseDate": "2025-07-25",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-fold7.webp"
+  },
+  {
+    "id": "pixel-9a",
+    "brandId": "google",
+    "name": "Pixel 9a",
+    "releaseDate": "2025-04-16",
+    "region": "jp",
+    "imageUrl": "/images/pixel-9a.webp"
+  },
+  {
+    "id": "galaxy-a56",
+    "brandId": "samsung",
+    "name": "Galaxy A56 5G",
+    "releaseDate": "2025-03-02",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-a56.webp"
+  },
+  {
+    "id": "iphone-16e",
+    "brandId": "apple",
+    "name": "iPhone 16e",
+    "releaseDate": "2025-02-28",
+    "region": "jp",
+    "imageUrl": "/images/iphone-16e.webp"
+  },
+  {
+    "id": "galaxy-s25-plus",
+    "brandId": "samsung",
+    "name": "Galaxy S25+",
+    "releaseDate": "2025-02-14",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s25-plus.webp"
+  },
+  {
+    "id": "galaxy-s25",
+    "brandId": "samsung",
+    "name": "Galaxy S25",
+    "releaseDate": "2025-01-31",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s25.webp"
+  },
+  {
+    "id": "galaxy-s25-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S25 Ultra",
+    "releaseDate": "2025-01-23",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s25-ultra.webp"
+  },
+  {
+    "id": "galaxy-s24-fe",
+    "brandId": "samsung",
+    "name": "Galaxy S24 FE",
+    "releaseDate": "2024-12-26",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s24-fe.webp"
+  },
+  {
+    "id": "iphone-16-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 16 Pro Max",
+    "releaseDate": "2024-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-16-pro-max.webp"
+  },
+  {
+    "id": "iphone-16-pro",
+    "brandId": "apple",
+    "name": "iPhone 16 Pro",
+    "releaseDate": "2024-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-16-pro.webp"
+  },
+  {
+    "id": "iphone-16",
+    "brandId": "apple",
+    "name": "iPhone 16",
+    "releaseDate": "2024-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-16.webp"
+  },
+  {
+    "id": "iphone-16-plus",
+    "brandId": "apple",
+    "name": "iPhone 16 Plus",
+    "releaseDate": "2024-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-16-plus.webp"
+  },
+  {
+    "id": "pixel-9-pro-fold",
+    "brandId": "google",
+    "name": "Pixel 9 Pro Fold",
+    "releaseDate": "2024-09-04",
+    "region": "jp",
+    "imageUrl": "/images/pixel-9-pro-fold.webp"
+  },
+  {
+    "id": "pixel-9-pro",
+    "brandId": "google",
+    "name": "Pixel 9 Pro",
+    "releaseDate": "2024-08-22",
+    "region": "jp",
+    "imageUrl": "/images/pixel-9-pro.webp"
+  },
+  {
+    "id": "pixel-9",
+    "brandId": "google",
+    "name": "Pixel 9",
+    "releaseDate": "2024-08-22",
+    "region": "jp",
+    "imageUrl": "/images/pixel-9.webp"
+  },
+  {
+    "id": "pixel-9-pro-xl",
+    "brandId": "google",
+    "name": "Pixel 9 Pro XL",
+    "releaseDate": "2024-08-22",
+    "region": "jp",
+    "imageUrl": "/images/pixel-9-pro-xl.webp"
+  },
+  {
+    "id": "galaxy-z-flip6",
+    "brandId": "samsung",
+    "name": "Galaxy Z Flip6",
+    "releaseDate": "2024-07-26",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-flip6.webp"
+  },
+  {
+    "id": "galaxy-z-fold6",
+    "brandId": "samsung",
+    "name": "Galaxy Z Fold6",
+    "releaseDate": "2024-07-26",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-fold6.webp"
+  },
+  {
+    "id": "galaxy-a55",
+    "brandId": "samsung",
+    "name": "Galaxy A55 5G",
+    "releaseDate": "2024-05-30",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-a55.webp"
+  },
+  {
+    "id": "pixel-8a",
+    "brandId": "google",
+    "name": "Pixel 8a",
+    "releaseDate": "2024-05-14",
+    "region": "jp",
+    "imageUrl": "/images/pixel-8a.webp"
+  },
+  {
+    "id": "galaxy-s23-fe",
+    "brandId": "samsung",
+    "name": "Galaxy S23 FE",
+    "releaseDate": "2024-02-09",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s23-fe.webp"
+  },
+  {
+    "id": "galaxy-s24-plus",
+    "brandId": "samsung",
+    "name": "Galaxy S24+",
+    "releaseDate": "2024-01-31",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s24-plus.webp"
+  },
+  {
+    "id": "galaxy-s24",
+    "brandId": "samsung",
+    "name": "Galaxy S24",
+    "releaseDate": "2024-01-18",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s24.webp"
+  },
+  {
+    "id": "galaxy-s24-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S24 Ultra",
+    "releaseDate": "2024-01-18",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s24-ultra.webp"
+  },
+  {
+    "id": "pixel-8-pro",
+    "brandId": "google",
+    "name": "Pixel 8 Pro",
+    "releaseDate": "2023-10-12",
+    "region": "jp",
+    "imageUrl": "/images/pixel-8-pro.webp"
+  },
+  {
+    "id": "pixel-8",
+    "brandId": "google",
+    "name": "Pixel 8",
+    "releaseDate": "2023-10-12",
+    "region": "jp",
+    "imageUrl": "/images/pixel-8.webp"
+  },
+  {
+    "id": "iphone-15-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 15 Pro Max",
+    "releaseDate": "2023-09-22",
+    "region": "jp",
+    "imageUrl": "/images/iphone-15-pro-max.webp"
+  },
+  {
+    "id": "iphone-15-pro",
+    "brandId": "apple",
+    "name": "iPhone 15 Pro",
+    "releaseDate": "2023-09-22",
+    "region": "jp",
+    "imageUrl": "/images/iphone-15-pro.webp"
+  },
+  {
+    "id": "iphone-15",
+    "brandId": "apple",
+    "name": "iPhone 15",
+    "releaseDate": "2023-09-22",
+    "region": "jp",
+    "imageUrl": "/images/iphone-15.webp"
+  },
+  {
+    "id": "iphone-15-plus",
+    "brandId": "apple",
+    "name": "iPhone 15 Plus",
+    "releaseDate": "2023-09-22",
+    "region": "jp",
+    "imageUrl": "/images/iphone-15-plus.webp"
+  },
+  {
+    "id": "galaxy-z-flip5",
+    "brandId": "samsung",
+    "name": "Galaxy Z Flip5",
+    "releaseDate": "2023-08-11",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-flip5.webp"
+  },
+  {
+    "id": "galaxy-z-fold5",
+    "brandId": "samsung",
+    "name": "Galaxy Z Fold5",
+    "releaseDate": "2023-08-11",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-fold5.webp"
+  },
+  {
+    "id": "galaxy-a54",
+    "brandId": "samsung",
+    "name": "Galaxy A54 5G",
+    "releaseDate": "2023-05-25",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-a54.webp"
+  },
+  {
+    "id": "pixel-7a",
+    "brandId": "google",
+    "name": "Pixel 7a",
+    "releaseDate": "2023-05-11",
+    "region": "jp",
+    "imageUrl": "/images/pixel-7a.webp"
+  },
+  {
+    "id": "galaxy-s23",
+    "brandId": "samsung",
+    "name": "Galaxy S23",
+    "releaseDate": "2023-02-17",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s23.webp"
+  },
+  {
+    "id": "galaxy-s23-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S23 Ultra",
+    "releaseDate": "2023-02-17",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s23-ultra.webp"
+  },
+  {
+    "id": "galaxy-s23-plus",
+    "brandId": "samsung",
+    "name": "Galaxy S23+",
+    "releaseDate": "2023-02-17",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s23-plus.webp"
+  },
+  {
+    "id": "pixel-7",
+    "brandId": "google",
+    "name": "Pixel 7",
+    "releaseDate": "2022-10-13",
+    "region": "jp",
+    "imageUrl": "/images/pixel-7.webp"
+  },
+  {
+    "id": "pixel-7-pro",
+    "brandId": "google",
+    "name": "Pixel 7 Pro",
+    "releaseDate": "2022-10-13",
+    "region": "jp",
+    "imageUrl": "/images/pixel-7-pro.webp"
+  },
+  {
+    "id": "iphone-14-plus",
+    "brandId": "apple",
+    "name": "iPhone 14 Plus",
+    "releaseDate": "2022-10-07",
+    "region": "jp",
+    "imageUrl": "/images/iphone-14-plus.webp"
+  },
+  {
+    "id": "galaxy-z-fold4",
+    "brandId": "samsung",
+    "name": "Galaxy Z Fold4",
+    "releaseDate": "2022-09-29",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-fold4.webp"
+  },
+  {
+    "id": "iphone-14",
+    "brandId": "apple",
+    "name": "iPhone 14",
+    "releaseDate": "2022-09-16",
+    "region": "jp",
+    "imageUrl": "/images/iphone-14.webp"
+  },
+  {
+    "id": "galaxy-z-flip4",
+    "brandId": "samsung",
+    "name": "Galaxy Z Flip4",
+    "releaseDate": "2022-08-26",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-flip4.webp"
+  },
+  {
+    "id": "pixel-6a",
+    "brandId": "google",
+    "name": "Pixel 6a",
+    "releaseDate": "2022-07-28",
+    "region": "jp",
+    "imageUrl": "/images/pixel-6a.webp"
+  },
+  {
+    "id": "iphone-se-3",
+    "brandId": "apple",
+    "name": "iPhone SE（第3世代）",
+    "releaseDate": "2022-03-18",
+    "region": "jp",
+    "imageUrl": "/images/iphone-se-3.webp"
+  },
+  {
+    "id": "galaxy-s22",
+    "brandId": "samsung",
+    "name": "Galaxy S22",
+    "releaseDate": "2022-02-18",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s22.webp"
+  },
+  {
+    "id": "galaxy-s22-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S22 Ultra",
+    "releaseDate": "2022-02-18",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s22-ultra.webp"
+  },
+  {
+    "id": "pixel-6",
+    "brandId": "google",
+    "name": "Pixel 6",
+    "releaseDate": "2021-10-28",
+    "region": "jp",
+    "imageUrl": "/images/pixel-6.webp"
+  },
+  {
+    "id": "pixel-6-pro",
+    "brandId": "google",
+    "name": "Pixel 6 Pro",
+    "releaseDate": "2021-10-28",
+    "region": "jp",
+    "imageUrl": "/images/pixel-6-pro.webp"
+  },
+  {
+    "id": "iphone-13-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 13 Pro Max",
+    "releaseDate": "2021-09-24",
+    "region": "jp",
+    "imageUrl": "/images/iphone-13-pro-max.webp"
+  },
+  {
+    "id": "iphone-13-pro",
+    "brandId": "apple",
+    "name": "iPhone 13 Pro",
+    "releaseDate": "2021-09-24",
+    "region": "jp",
+    "imageUrl": "/images/iphone-13-pro.webp"
+  },
+  {
+    "id": "iphone-13",
+    "brandId": "apple",
+    "name": "iPhone 13",
+    "releaseDate": "2021-09-24",
+    "region": "jp",
+    "imageUrl": "/images/iphone-13.webp"
+  },
+  {
+    "id": "iphone-13-mini",
+    "brandId": "apple",
+    "name": "iPhone 13 mini",
+    "releaseDate": "2021-09-24",
+    "region": "jp",
+    "imageUrl": "/images/iphone-13-mini.webp"
+  },
+  {
+    "id": "galaxy-z-fold3",
+    "brandId": "samsung",
+    "name": "Galaxy Z Fold3",
+    "releaseDate": "2021-09-01",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-fold3.webp"
+  },
+  {
+    "id": "galaxy-z-flip3",
+    "brandId": "samsung",
+    "name": "Galaxy Z Flip3",
+    "releaseDate": "2021-08-27",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-z-flip3.webp"
+  },
+  {
+    "id": "galaxy-s21",
+    "brandId": "samsung",
+    "name": "Galaxy S21",
+    "releaseDate": "2021-01-29",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s21.webp"
+  },
+  {
+    "id": "galaxy-s21-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S21 Ultra",
+    "releaseDate": "2021-01-29",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s21-ultra.webp"
+  },
+  {
+    "id": "iphone-12-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 12 Pro Max",
+    "releaseDate": "2020-11-13",
+    "region": "jp",
+    "imageUrl": "/images/iphone-12-pro-max.webp"
+  },
+  {
+    "id": "iphone-12-mini",
+    "brandId": "apple",
+    "name": "iPhone 12 mini",
+    "releaseDate": "2020-11-13",
+    "region": "jp",
+    "imageUrl": "/images/iphone-12-mini.webp"
+  },
+  {
+    "id": "iphone-12-pro",
+    "brandId": "apple",
+    "name": "iPhone 12 Pro",
+    "releaseDate": "2020-10-23",
+    "region": "jp",
+    "imageUrl": "/images/iphone-12-pro.webp"
+  },
+  {
+    "id": "iphone-12",
+    "brandId": "apple",
+    "name": "iPhone 12",
+    "releaseDate": "2020-10-23",
+    "region": "jp",
+    "imageUrl": "/images/iphone-12.webp"
+  },
+  {
+    "id": "iphone-se-2",
+    "brandId": "apple",
+    "name": "iPhone SE（第2世代）",
+    "releaseDate": "2020-04-24",
+    "region": "jp",
+    "imageUrl": "/images/iphone-se-2.webp"
+  },
+  {
+    "id": "galaxy-s20-ultra",
+    "brandId": "samsung",
+    "name": "Galaxy S20 Ultra",
+    "releaseDate": "2020-03-26",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s20-ultra.webp"
+  },
+  {
+    "id": "galaxy-s20",
+    "brandId": "samsung",
+    "name": "Galaxy S20",
+    "releaseDate": "2020-03-06",
+    "region": "jp",
+    "imageUrl": "/images/galaxy-s20.webp"
+  },
+  {
+    "id": "iphone-11-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 11 Pro Max",
+    "releaseDate": "2019-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-11-pro-max.webp"
+  },
+  {
+    "id": "iphone-11-pro",
+    "brandId": "apple",
+    "name": "iPhone 11 Pro",
+    "releaseDate": "2019-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-11-pro.webp"
+  },
+  {
+    "id": "iphone-11",
+    "brandId": "apple",
+    "name": "iPhone 11",
+    "releaseDate": "2019-09-20",
+    "region": "jp",
+    "imageUrl": "/images/iphone-11.webp"
+  }
+]

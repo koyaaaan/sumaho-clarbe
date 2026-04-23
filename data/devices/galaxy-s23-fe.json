@@ -1,0 +1,120 @@
+{
+  "id": "galaxy-s23-fe",
+  "brandId": "samsung",
+  "name": "Galaxy S23 FE",
+  "releaseDate": "2024-02-09",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s23-fe.webp",
+  "specs": {
+    "basic.price": null,
+    "basic.weight": 209,
+    "basic.height": 158.0,
+    "basic.width": 76.5,
+    "basic.depth": 8.2,
+    "basic.ipRating": "IP68",
+    "variant.docomo": null,
+    "variant.au": "○",
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "display.size": 6.4,
+    "display.resolution": "FHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "display.peakBrightness": 1450,
+    "processor.soc": "Snapdragon 8 Gen 1",
+    "processor.process": "4nm",
+    "processor.gpu": "Adreno 730",
+    "memory.ram": 8,
+    "memory.storageOptions": [
+      256
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 50,
+        "sensor": "Samsung ISOCELL GN3",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "sensor": "Sony IMX258",
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 8,
+        "sensor": "Samsung S5K3J1",
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 3
+      }
+    ],
+    "camera.mainMP": 50,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL GN3",
+    "camera.ultrawideSensor": "Sony IMX258",
+    "camera.telephotoSensor": "Samsung S5K3J1",
+    "camera.telephotoZoom": 3,
+    "camera.frontMP": 10,
+    "camera.frontAperture": 2.4,
+    "camera.videoMaxRes": "8K 24fps",
+    "battery.capacity": 4500,
+    "battery.wiredCharging": 25,
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n3 / n28 / n41 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": null,
+    "connectivity.fourGBands": "B1 / B3 / B8 / B18 / B19 / B21 / B26 / B28 / B41 / B42",
+    "connectivity.bandLock": "あり（au版）",
+    "connectivity.carrierBands": {
+      "shared": false,
+      "au": {
+        "modelNumber": "SM-S711J",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B8",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": []
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 6E",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB Type-C",
+    "connectivity.sim": "nano-SIM / eSIM",
+    "os.initial": "Android 14 / One UI 6.0",
+    "os.updateYears": 4,
+    "os.securityYears": 5,
+    "os.releaseYear": 2024,
+    "os.updateUntil": 2028,
+    "os.securityUntil": 2029,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（光学式）",
+    "biometrics.face": true
+  }
+}

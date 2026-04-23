@@ -1,0 +1,124 @@
+{
+  "id": "pixel-6-pro",
+  "brandId": "google",
+  "name": "Pixel 6 Pro",
+  "releaseDate": "2021-10-28",
+  "region": "jp",
+  "imageUrl": "/images/pixel-6-pro.webp",
+  "specs": {
+    "basic.price": 116600,
+    "basic.weight": 210,
+    "basic.height": 163.9,
+    "basic.width": 75.9,
+    "basic.depth": 8.9,
+    "basic.ipRating": "IP68",
+    "variant.docomo": null,
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.rakuten": null,
+    "variant.simfree": "○",
+    "display.size": 6.7,
+    "display.resolution": "3120x1440",
+    "display.refreshRate": 120,
+    "display.panelType": "LTPO OLED",
+    "display.peakBrightness": 800,
+    "processor.soc": "Google Tensor",
+    "processor.process": "5nm (Samsung)",
+    "processor.gpu": "Mali-G78 MP20",
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      128,
+      256
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 50,
+        "sensor": "Samsung GN1",
+        "aperture": 1.85,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "sensor": "Sony IMX386",
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 48,
+        "sensor": "Sony IMX586",
+        "aperture": 3.5,
+        "ois": true,
+        "zoom": 4
+      }
+    ],
+    "camera.mainMP": 50,
+    "camera.mainAperture": 1.85,
+    "camera.mainSensor": "Samsung GN1",
+    "camera.ultrawideSensor": "Sony IMX386",
+    "camera.telephotoSensor": "Sony IMX586",
+    "camera.telephotoZoom": 4,
+    "camera.frontMP": 11.1,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "4K 60fps",
+    "battery.capacity": 5003,
+    "battery.wiredCharging": 30,
+    "battery.wirelessCharging": 23,
+    "battery.reverseCharging": true,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n14 / n20 / n25 / n28 / n30 / n38 / n40 / n41 / n48 / n66 / n71 / n77 / n78",
+    "connectivity.fiveGMmwave": "n257 / n258 / n260 / n261",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B25 / B26 / B28 / B29 / B30 / B32 / B38 / B39 / B40 / B41 / B42 / B46 / B48 / B66 / B71",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "GF5KQ",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B7",
+          "B8",
+          "B18",
+          "B19",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B11",
+          "B21"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 6E",
+    "connectivity.bluetooth": "5.2",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.1 Type-C",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 12",
+    "os.updateYears": 5,
+    "os.securityYears": 5,
+    "os.releaseYear": 2021,
+    "os.updateUntil": 2026,
+    "os.securityUntil": 2026,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（光学式）",
+    "biometrics.face": false
+  }
+}

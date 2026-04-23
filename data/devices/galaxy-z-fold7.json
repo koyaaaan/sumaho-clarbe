@@ -1,0 +1,121 @@
+{
+  "id": "galaxy-z-fold7",
+  "brandId": "samsung",
+  "name": "Galaxy Z Fold7",
+  "releaseDate": "2025-07-25",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-z-fold7.webp",
+  "specs": {
+    "basic.ipRating": "IP48",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.simfree": "○",
+    "display.size": 8,
+    "display.resolution": "QXGA+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 8 Elite",
+    "camera.mainMP": 200,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL HP2",
+    "camera.telephotoZoom": 3,
+    "battery.capacity": 4400,
+    "battery.wiredCharging": 25,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n28 / n77 / n78 / n79 / n3 / n41",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B3 / B8 / B18 / B19 / B21 / B26 / B28 / B41 / B42",
+    "connectivity.bandLock": "なし",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 15 / One UI",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2025,
+    "os.updateUntil": 2032,
+    "os.securityUntil": 2032,
+    "basic.weight": 239,
+    "basic.height": 155,
+    "basic.width": 138,
+    "basic.depth": 4.7,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512,
+      1024
+    ],
+    "memory.storageType": "UFS 4.0",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 200,
+        "sensor": "ISOCELL HP2",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 10,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 3
+      }
+    ],
+    "camera.frontMP": 10,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "Samsung ISOCELL JN1",
+    "camera.telephotoSensor": "IMX754",
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 7 (802.11be)",
+    "connectivity.bluetooth": "5.4",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Gen 1 Type-C",
+    "display.peakBrightness": 2600,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "側面指紋センサー",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 830",
+    "processor.process": "3nm",
+    "basic.price": 284800,
+    "variant.rakuten": null,
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "SM-F966Q",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B8",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": []
+      }
+    }
+  }
+}

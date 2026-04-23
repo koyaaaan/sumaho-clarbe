@@ -1,0 +1,126 @@
+{
+  "id": "pixel-9-pro-xl",
+  "brandId": "google",
+  "name": "Pixel 9 Pro XL",
+  "releaseDate": "2024-08-22",
+  "region": "jp",
+  "imageUrl": "/images/pixel-9-pro-xl.webp",
+  "specs": {
+    "basic.price": 212900,
+    "basic.weight": 221,
+    "basic.height": 162.8,
+    "basic.width": 76.6,
+    "basic.depth": 8.5,
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.rakuten": null,
+    "variant.simfree": "○",
+    "display.size": 6.8,
+    "display.resolution": "2992x1344",
+    "display.refreshRate": 120,
+    "display.panelType": "LTPO OLED",
+    "display.peakBrightness": 3000,
+    "processor.soc": "Google Tensor G4",
+    "processor.process": "4nm (Samsung)",
+    "processor.gpu": "Mali-G715",
+    "memory.ram": 16,
+    "memory.storageOptions": [
+      128,
+      256,
+      512
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 50,
+        "sensor": "Samsung GNK",
+        "aperture": 1.68,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 48,
+        "sensor": "Sony IMX858",
+        "aperture": 1.7,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 48,
+        "sensor": "Sony IMX858",
+        "aperture": 2.8,
+        "ois": true,
+        "zoom": 5
+      }
+    ],
+    "camera.mainMP": 50,
+    "camera.mainAperture": 1.68,
+    "camera.mainSensor": "Samsung GNK",
+    "camera.ultrawideSensor": "Sony IMX858",
+    "camera.telephotoSensor": "Sony IMX858",
+    "camera.telephotoZoom": 5,
+    "camera.frontMP": 42,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.capacity": 5060,
+    "battery.wiredCharging": 37,
+    "battery.wirelessCharging": 23,
+    "battery.reverseCharging": true,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n14 / n20 / n25 / n26 / n28 / n30 / n38 / n40 / n41 / n66 / n71 / n75 / n76 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "非対応",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B21 / B25 / B26 / B28 / B29 / B30 / B32 / B38 / B39 / B40 / B41 / B42 / B48 / B66 / B71 / B75",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "GQ57S",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B7",
+          "B8",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B11"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 7",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Gen 2 Type-C",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 14",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2024,
+    "os.updateUntil": 2031,
+    "os.securityUntil": 2031,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（超音波式）",
+    "biometrics.face": true
+  }
+}

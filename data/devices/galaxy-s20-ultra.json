@@ -1,0 +1,122 @@
+{
+  "id": "galaxy-s20-ultra",
+  "brandId": "samsung",
+  "name": "Galaxy S20 Ultra",
+  "releaseDate": "2020-03-26",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s20-ultra.webp",
+  "specs": {
+    "basic.ipRating": "IP68",
+    "variant.au": "○",
+    "display.size": 6.9,
+    "display.resolution": "QHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 865+",
+    "camera.mainMP": 108,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL HMX",
+    "camera.telephotoZoom": 10,
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 45,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n77 / n79",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B3 / B5 / B18 / B26 / B28 / B41 / B19 / B8",
+    "connectivity.bandLock": "あり",
+    "connectivity.sim": "nano-SIM",
+    "os.initial": "Android 10 / One UI",
+    "os.updateYears": 3,
+    "os.securityYears": 4,
+    "os.releaseYear": 2020,
+    "os.updateUntil": 2023,
+    "os.securityUntil": 2024,
+    "basic.price": 165980,
+    "basic.weight": 220,
+    "basic.height": 166.9,
+    "basic.width": 76,
+    "basic.depth": 8.8,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      128,
+      256,
+      512
+    ],
+    "memory.storageType": "UFS 3.0",
+    "memory.expandable": true,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 108,
+        "sensor": "ISOCELL HMX",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 48,
+        "aperture": 3.5,
+        "ois": true,
+        "zoom": 4
+      },
+      {
+        "label": "深度",
+        "mp": 0.3,
+        "aperture": 1,
+        "ois": false
+      }
+    ],
+    "camera.frontMP": 40,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "IMX616",
+    "camera.telephotoSensor": "GM1",
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 6 (802.11ax)",
+    "connectivity.bluetooth": "5.0",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Type-C",
+    "display.peakBrightness": 1400,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 650",
+    "processor.process": "7nm",
+    "variant.docomo": null,
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "connectivity.carrierBands": {
+      "shared": false,
+      "au": {
+        "modelNumber": "SCG03",
+        "fiveG": [
+          "n77",
+          "n79",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B18",
+          "B26",
+          "B28",
+          "B41"
+        ],
+        "missingBands": [
+          "B19",
+          "B8"
+        ]
+      }
+    }
+  }
+}

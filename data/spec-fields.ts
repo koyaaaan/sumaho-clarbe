@@ -1,0 +1,137 @@
+import type { SpecCategory } from "@/types/spec";
+
+export const specFields: SpecCategory[] = [
+  {
+    id: "basic",
+    label: "基本情報",
+    defaultOpen: true,
+    fields: [
+      { key: "basic.price", label: "価格（税込）", unit: "円", type: "number", higherIsBetter: false, format: "currency" },
+      { key: "basic.weight", label: "重量", unit: "g", type: "number", higherIsBetter: false },
+      { key: "basic.height", label: "高さ", unit: "mm", type: "number" },
+      { key: "basic.width", label: "幅", unit: "mm", type: "number" },
+      { key: "basic.depth", label: "厚さ", unit: "mm", type: "number", higherIsBetter: false },
+      { key: "basic.ipRating", label: "防水防塵", type: "string" },
+    ],
+  },
+  {
+    id: "variant",
+    label: "販路",
+    defaultOpen: true,
+    fields: [
+      { key: "variant.docomo", label: "docomo", type: "string", format: "carrier" },
+      { key: "variant.au", label: "au", type: "string", format: "carrier" },
+      { key: "variant.softbank", label: "SoftBank", type: "string", format: "carrier" },
+      { key: "variant.rakuten", label: "楽天モバイル", type: "string", format: "carrier" },
+      { key: "variant.simfree", label: "SIMフリー", type: "string", format: "carrier" },
+    ],
+  },
+  {
+    id: "display",
+    label: "ディスプレイ",
+    defaultOpen: true,
+    fields: [
+      { key: "display.size", label: "画面サイズ", unit: "インチ", type: "number", higherIsBetter: true, format: "decimal1" },
+      { key: "display.resolution", label: "解像度", type: "string" },
+      { key: "display.refreshRate", label: "リフレッシュレート", unit: "Hz", type: "number", higherIsBetter: true },
+      { key: "display.panelType", label: "パネル種別", type: "string" },
+      { key: "display.peakBrightness", label: "ピーク輝度", unit: "nit", type: "number", higherIsBetter: true },
+    ],
+  },
+  {
+    id: "processor",
+    label: "プロセッサ",
+    defaultOpen: true,
+    fields: [
+      { key: "processor.soc", label: "SoC", type: "string" },
+      { key: "processor.process", label: "製造プロセス", type: "string" },
+      { key: "processor.gpu", label: "GPU", type: "string" },
+    ],
+  },
+  {
+    id: "memory",
+    label: "メモリ / ストレージ",
+    defaultOpen: true,
+    fields: [
+      { key: "memory.ram", label: "RAM", unit: "GB", type: "number", higherIsBetter: true },
+      { key: "memory.storageOptions", label: "ストレージ", type: "array", format: "storageList" },
+      { key: "memory.storageType", label: "ストレージ規格", type: "string" },
+      { key: "memory.expandable", label: "外部ストレージ", type: "boolean" },
+    ],
+  },
+  {
+    id: "camera",
+    label: "カメラ",
+    defaultOpen: true,
+    fields: [
+      { key: "camera.rearModules", label: "リアカメラ構成", type: "object", format: "cameraModules" },
+      { key: "camera.mainMP", label: "メイン画素数", unit: "MP", type: "number", higherIsBetter: true },
+      { key: "camera.mainAperture", label: "メインF値", type: "number", higherIsBetter: false, format: "aperture" },
+      { key: "camera.mainSensor", label: "メインセンサー", type: "string" },
+      { key: "camera.ultrawideSensor", label: "超広角センサー", type: "string" },
+      { key: "camera.telephotoSensor", label: "望遠センサー", type: "string" },
+      { key: "camera.telephotoZoom", label: "望遠倍率", unit: "x", type: "number", higherIsBetter: true },
+      { key: "camera.frontMP", label: "フロント画素数", unit: "MP", type: "number", higherIsBetter: true },
+      { key: "camera.frontAperture", label: "フロントF値", type: "number", higherIsBetter: false, format: "aperture" },
+      { key: "camera.videoMaxRes", label: "最大動画解像度", type: "string" },
+    ],
+  },
+  {
+    id: "battery",
+    label: "バッテリー",
+    defaultOpen: false,
+    fields: [
+      { key: "battery.capacity", label: "容量", unit: "mAh", type: "number", higherIsBetter: true },
+      { key: "battery.wiredCharging", label: "有線充電", unit: "W", type: "number", higherIsBetter: true },
+      { key: "battery.wirelessCharging", label: "ワイヤレス充電", unit: "W", type: "number", higherIsBetter: true },
+      { key: "battery.reverseCharging", label: "リバース充電", type: "boolean" },
+    ],
+  },
+  {
+    id: "connectivity",
+    label: "通信 / バンド",
+    defaultOpen: true,
+    fields: [
+      { key: "connectivity.fiveG", label: "5G対応", type: "boolean" },
+      { key: "connectivity.fiveGSub6", label: "5G Sub-6 バンド", type: "string", format: "bands" },
+      { key: "connectivity.fiveGMmwave", label: "5G ミリ波", type: "string", format: "bands" },
+      { key: "connectivity.fourGBands", label: "4G LTE バンド", type: "string", format: "bands" },
+      { key: "connectivity.carrierBands", label: "バンド詳細・互換性", type: "object", format: "carrierBandDetail" },
+      { key: "connectivity.wifi", label: "Wi-Fi", type: "string" },
+      { key: "connectivity.bluetooth", label: "Bluetooth", type: "string" },
+      { key: "connectivity.nfc", label: "NFC", type: "boolean" },
+      { key: "connectivity.usb", label: "USB", type: "string" },
+      { key: "connectivity.sim", label: "SIM", type: "string" },
+    ],
+  },
+  {
+    id: "os",
+    label: "OS / アップデート",
+    defaultOpen: true,
+    fields: [
+      { key: "os.initial", label: "初期OS", type: "string" },
+      { key: "os.updateYears", label: "OSアップデート保証", unit: "世代", type: "number", higherIsBetter: true, format: "updateYears" },
+      { key: "os.securityYears", label: "セキュリティ更新", unit: "年", type: "number", higherIsBetter: true, format: "securityYears" },
+      { key: "os.updateUntil", label: "OS更新タイムライン", type: "number", format: "updateTimeline" },
+      { key: "os.securityUntil", label: "セキュリティタイムライン", type: "number", format: "updateTimeline" },
+    ],
+  },
+  {
+    id: "audio",
+    label: "オーディオ",
+    defaultOpen: false,
+    fields: [
+      { key: "audio.stereoSpeaker", label: "ステレオスピーカー", type: "boolean" },
+      { key: "audio.headphoneJack", label: "イヤホンジャック", type: "boolean" },
+    ],
+  },
+  {
+    id: "biometrics",
+    label: "生体認証",
+    defaultOpen: false,
+    fields: [
+      { key: "biometrics.fingerprint", label: "指紋認証", type: "string" },
+      { key: "biometrics.face", label: "顔認証", type: "boolean" },
+    ],
+  },
+];

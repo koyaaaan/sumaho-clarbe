@@ -1,0 +1,66 @@
+{
+  "_comment": "===== carrierBands 入力テンプレート =====",
+  "_rules": {
+    "バンド表記": "4G: B + 数字 (例: B1, B18)  /  5G: n + 数字 (例: n77, n79)",
+    "shared": "true=バンドロックなし(全キャリア共通) / false=バンドロックあり(キャリア別)",
+    "missingBands": "物理的に非対応のバンド (日本キャリア要件上の不足ではなく、端末HWが非対応のもの)",
+    "modelNumber": "未発表の場合は「未発表」と記入。書式: SC-xxx(docomo) / SCG-xx(au) / SM-xxxxQ(SIMフリー)",
+    "bandLock": "connectivity.bandLock は「あり」「なし」で設定。shared=true↔なし / shared=false↔あり で整合させること。UIには表示しないが内部判定に使用",
+    "対象範囲": "現在は日本(JP)キャリア割当バンドのみ対象。将来グローバル対応時はvalid-bands-jp.jsonを切替"
+  },
+
+  "_template_bandlock_nashi": {
+    "_説明": "バンドロックなし端末（S23以降/iPhone/Pixel等）",
+    "shared": true,
+    "simfree": {
+      "modelNumber": "SM-XXXQ",
+      "fiveG": ["n1", "n3", "n28", "n41", "n77", "n78", "n79"],
+      "fourG": ["B1", "B3", "B8", "B18", "B19", "B21", "B26", "B28", "B41", "B42"],
+      "missingBands": []
+    }
+  },
+
+  "_template_bandlock_ari": {
+    "_説明": "バンドロックあり端末（S22以前等）。キャリア別にバンドが異なる",
+    "shared": false,
+    "docomo": {
+      "modelNumber": "SC-XXX",
+      "fiveG": ["n1", "n28", "n77", "n78"],
+      "fourG": ["B1", "B3", "B19", "B28"],
+      "missingBands": ["B8", "B18", "B26"]
+    },
+    "au": {
+      "modelNumber": "SCG-XX",
+      "fiveG": ["n3", "n28", "n77", "n78"],
+      "fourG": ["B1", "B3", "B18", "B26", "B28"],
+      "missingBands": ["B19"]
+    }
+  },
+
+  "_日本4Gバンド一覧": {
+    "B1":  "2.1GHz — docomo/au/SB/楽天 (全キャリア共通・主力)",
+    "B3":  "1.8GHz — docomo/au/SB/楽天 (都市部補助)",
+    "B5":  "850MHz — au (CDMA互換)",
+    "B7":  "2.6GHz — SB (一部地域)",
+    "B8":  "900MHz — SoftBank プラチナバンド ★",
+    "B11": "1.5GHz — au/SB (補助)",
+    "B18": "800MHz — au プラチナバンド ★",
+    "B19": "800MHz — docomo プラチナバンド ★",
+    "B21": "1.5GHz — docomo (地方補助)",
+    "B26": "850MHz — au (B18を包含 ※B18と同義扱い)",
+    "B28": "700MHz — docomo/au/SB (補助・広域)",
+    "B41": "2.5GHz — au WiMAX2+ / SB AXGP",
+    "B42": "3.5GHz — docomo/au/SB (高速通信)"
+  },
+
+  "_日本5Gバンド一覧": {
+    "n1":   "2.1GHz — NR転用",
+    "n3":   "1.8GHz — SB NR転用",
+    "n28":  "700MHz — au/SB NR転用",
+    "n41":  "2.5GHz — au WiMAX NR",
+    "n77":  "3.7GHz — au/SB/楽天 Sub-6 主力 (n78を包含)",
+    "n78":  "3.5GHz — docomo/au Sub-6 主力",
+    "n79":  "4.5GHz — docomo 専用 Sub-6",
+    "n257": "28GHz  — ミリ波 (限定的スポット)"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "galaxy-s24-ultra",
+  "brandId": "samsung",
+  "name": "Galaxy S24 Ultra",
+  "releaseDate": "2024-01-18",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s24-ultra.webp",
+  "specs": {
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.simfree": "○",
+    "display.size": 6.8,
+    "display.resolution": "QHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 8 Gen 3",
+    "camera.mainMP": 200,
+    "camera.mainAperture": 1.7,
+    "camera.mainSensor": "Samsung ISOCELL HP2",
+    "camera.telephotoZoom": 10,
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 45,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n3 / n28 / n41 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B3 / B8 / B18 / B19 / B21 / B26 / B28 / B41 / B42",
+    "connectivity.bandLock": "なし",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 14 / One UI",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2024,
+    "os.updateUntil": 2031,
+    "os.securityUntil": 2031,
+    "basic.price": 218900,
+    "basic.weight": 232,
+    "basic.height": 162.3,
+    "basic.width": 79,
+    "basic.depth": 8.6,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512,
+      1024
+    ],
+    "memory.storageType": "UFS 4.0",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 200,
+        "sensor": "ISOCELL HP2",
+        "aperture": 1.7,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "sensor": "ISOCELL JN1",
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠3x",
+        "mp": 10,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 3
+      },
+      {
+        "label": "望遠5x",
+        "mp": 50,
+        "sensor": "ISOCELL JN1",
+        "aperture": 3.4,
+        "ois": true,
+        "zoom": 5
+      }
+    ],
+    "camera.frontMP": 12,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "Samsung ISOCELL JN1",
+    "camera.telephotoSensor": "Samsung ISOCELL JN1",
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 7 (802.11be)",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Type-C",
+    "display.peakBrightness": 2600,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 750",
+    "processor.process": "4nm",
+    "variant.rakuten": null,
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "SM-S928Q",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B8",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": []
+      }
+    }
+  }
+}

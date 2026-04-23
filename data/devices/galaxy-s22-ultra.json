@@ -1,0 +1,150 @@
+{
+  "id": "galaxy-s22-ultra",
+  "brandId": "samsung",
+  "name": "Galaxy S22 Ultra",
+  "releaseDate": "2022-02-18",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s22-ultra.webp",
+  "specs": {
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "display.size": 6.8,
+    "display.resolution": "QHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 8 Gen 1",
+    "camera.mainMP": 108,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL HM3",
+    "camera.telephotoZoom": 10,
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 45,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n28 / n77 / n78 / n3 / n41",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B3 / B19 / B21 / B8 / B18 / B26 / B42 / B5 / B7 / B28 / B41",
+    "connectivity.bandLock": "あり",
+    "connectivity.sim": "nano-SIM",
+    "os.initial": "Android 12 / One UI",
+    "os.updateYears": 4,
+    "os.securityYears": 5,
+    "os.releaseYear": 2022,
+    "os.updateUntil": 2026,
+    "os.securityUntil": 2027,
+    "basic.price": 183744,
+    "basic.weight": 228,
+    "basic.height": 163.3,
+    "basic.width": 77.9,
+    "basic.depth": 8.9,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512,
+      1024
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 108,
+        "sensor": "ISOCELL HM3",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠3x",
+        "mp": 10,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 3
+      },
+      {
+        "label": "望遠10x",
+        "mp": 10,
+        "aperture": 4.9,
+        "ois": true,
+        "zoom": 10
+      }
+    ],
+    "camera.frontMP": 40,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "IMX563",
+    "camera.telephotoSensor": "IMX754",
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 6E (802.11ax)",
+    "connectivity.bluetooth": "5.2",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Type-C",
+    "display.peakBrightness": 1750,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 730",
+    "processor.process": "4nm",
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "connectivity.carrierBands": {
+      "shared": false,
+      "docomo": {
+        "modelNumber": "SC-52C",
+        "fiveG": [
+          "n1",
+          "n28",
+          "n77",
+          "n78",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B19",
+          "B21"
+        ],
+        "missingBands": [
+          "B8",
+          "B18",
+          "B26",
+          "B42"
+        ]
+      },
+      "au": {
+        "modelNumber": "SCG14",
+        "fiveG": [
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B7",
+          "B18",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B19",
+          "B21"
+        ]
+      }
+    }
+  }
+}

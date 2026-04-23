@@ -1,0 +1,123 @@
+{
+  "id": "galaxy-s25-ultra",
+  "brandId": "samsung",
+  "name": "Galaxy S25 Ultra",
+  "releaseDate": "2025-01-23",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s25-ultra.webp",
+  "specs": {
+    "basic.price": 234920,
+    "basic.weight": 218,
+    "basic.height": 162.8,
+    "basic.width": 77.6,
+    "basic.depth": 8.2,
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.rakuten": null,
+    "variant.simfree": "○",
+    "display.size": 6.9,
+    "display.resolution": "3120x1440",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "display.peakBrightness": 2600,
+    "processor.soc": "Snapdragon 8 Elite for Galaxy",
+    "processor.process": "3nm",
+    "processor.gpu": "Adreno 830",
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512,
+      1024
+    ],
+    "memory.storageType": "UFS 4.0",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 200,
+        "sensor": "ISOCELL HP2",
+        "aperture": 1.7,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 50,
+        "sensor": "ISOCELL JN1",
+        "aperture": 1.9,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 50,
+        "sensor": "ISOCELL JN1",
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 5
+      }
+    ],
+    "camera.mainMP": 200,
+    "camera.mainAperture": 1.7,
+    "camera.mainSensor": "Samsung ISOCELL HP2",
+    "camera.ultrawideSensor": "Samsung ISOCELL JN1",
+    "camera.telephotoSensor": "Samsung ISOCELL JN1",
+    "camera.telephotoZoom": 5,
+    "camera.frontMP": 12,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 45,
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n3 / n28 / n41 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B18 / B19 / B20 / B21 / B25 / B26 / B28 / B38 / B39 / B40 / B41 / B66",
+    "connectivity.bandLock": "なし（SIMフリー版）",
+    "connectivity.wifi": "Wi-Fi 7 (802.11be)",
+    "connectivity.bluetooth": "5.4",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Gen 1 Type-C",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 15 / One UI 7",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2025,
+    "os.updateUntil": 2032,
+    "os.securityUntil": 2032,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "SM-S938Q",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B8",
+          "B11",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": []
+      }
+    }
+  }
+}

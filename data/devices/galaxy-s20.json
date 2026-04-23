@@ -1,0 +1,132 @@
+{
+  "id": "galaxy-s20",
+  "brandId": "samsung",
+  "name": "Galaxy S20",
+  "releaseDate": "2020-03-06",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s20.webp",
+  "specs": {
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "display.size": 6.2,
+    "display.resolution": "FHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 865",
+    "camera.mainMP": 64,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL GW1",
+    "camera.telephotoZoom": 3,
+    "battery.capacity": 4000,
+    "battery.wiredCharging": 25,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n77 / n79",
+    "connectivity.fourGBands": "B1 / B3 / B19 / B21 / B28 / B42 / B18 / B26 / B8",
+    "connectivity.bandLock": "あり",
+    "connectivity.sim": "nano-SIM",
+    "os.initial": "Android 10 / One UI",
+    "os.updateYears": 3,
+    "os.securityYears": 4,
+    "os.releaseYear": 2020,
+    "os.updateUntil": 2023,
+    "os.securityUntil": 2024,
+    "basic.price": 102960,
+    "basic.weight": 163,
+    "basic.height": 151.7,
+    "basic.width": 69.1,
+    "basic.depth": 7.9,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      128
+    ],
+    "memory.storageType": "UFS 3.0",
+    "memory.expandable": true,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 12,
+        "sensor": "ISOCELL GW1",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 64,
+        "aperture": 2,
+        "ois": true,
+        "zoom": 3
+      }
+    ],
+    "camera.frontMP": 10,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "IMX616",
+    "camera.telephotoSensor": "Samsung ISOCELL GW1",
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 6 (802.11ax)",
+    "connectivity.bluetooth": "5.0",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Type-C",
+    "display.peakBrightness": 1300,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 650",
+    "processor.process": "7nm",
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "connectivity.fiveGMmwave": null,
+    "connectivity.carrierBands": {
+      "shared": false,
+      "docomo": {
+        "modelNumber": "SC-51A",
+        "fiveG": [
+          "n77",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B19",
+          "B21",
+          "B28",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B18",
+          "B26"
+        ]
+      },
+      "au": {
+        "modelNumber": "SCG01",
+        "fiveG": [
+          "n77"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B18",
+          "B28"
+        ],
+        "missingBands": [
+          "B19",
+          "B8",
+          "B21",
+          "B26"
+        ]
+      }
+    }
+  }
+}

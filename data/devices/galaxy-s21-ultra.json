@@ -1,0 +1,122 @@
+{
+  "id": "galaxy-s21-ultra",
+  "brandId": "samsung",
+  "name": "Galaxy S21 Ultra",
+  "releaseDate": "2021-01-29",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s21-ultra.webp",
+  "specs": {
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "display.size": 6.8,
+    "display.resolution": "QHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 888",
+    "camera.mainMP": 108,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL HM3",
+    "camera.telephotoZoom": 10,
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 25,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n78 / n79",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B3 / B19 / B21 / B28 / B42 / B8 / B18 / B26",
+    "connectivity.bandLock": "あり",
+    "connectivity.sim": "nano-SIM",
+    "os.initial": "Android 11 / One UI",
+    "os.updateYears": 4,
+    "os.securityYears": 4,
+    "os.releaseYear": 2021,
+    "os.updateUntil": 2025,
+    "os.securityUntil": 2025,
+    "basic.price": 151272,
+    "basic.weight": 227,
+    "basic.height": 165.1,
+    "basic.width": 75.6,
+    "basic.depth": 8.9,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 108,
+        "sensor": "ISOCELL HM3",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠3x",
+        "mp": 10,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 3
+      },
+      {
+        "label": "望遠10x",
+        "mp": 10,
+        "aperture": 4.9,
+        "ois": true,
+        "zoom": 10
+      }
+    ],
+    "camera.frontMP": 40,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "IMX563",
+    "camera.telephotoSensor": "IMX754",
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 6E (802.11ax)",
+    "connectivity.bluetooth": "5.2",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Type-C",
+    "display.peakBrightness": 1500,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 660",
+    "processor.process": "5nm",
+    "variant.au": null,
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "connectivity.carrierBands": {
+      "shared": false,
+      "docomo": {
+        "modelNumber": "SC-52B",
+        "fiveG": [
+          "n78",
+          "n79",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B19",
+          "B21",
+          "B28",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B18",
+          "B26"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "pixel-7",
+  "brandId": "google",
+  "name": "Pixel 7",
+  "releaseDate": "2022-10-13",
+  "region": "jp",
+  "imageUrl": "/images/pixel-7.webp",
+  "specs": {
+    "basic.price": 82500,
+    "basic.weight": 197,
+    "basic.height": 155.6,
+    "basic.width": 73.2,
+    "basic.depth": 8.7,
+    "basic.ipRating": "IP68",
+    "variant.docomo": null,
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.rakuten": null,
+    "variant.simfree": "○",
+    "display.size": 6.3,
+    "display.resolution": "2400x1080",
+    "display.refreshRate": 90,
+    "display.panelType": "OLED",
+    "display.peakBrightness": 1400,
+    "processor.soc": "Google Tensor G2",
+    "processor.process": "4nm",
+    "processor.gpu": "Mali-G710 MP7",
+    "memory.ram": 8,
+    "memory.storageOptions": [
+      128,
+      256
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 50,
+        "sensor": "Samsung GN1",
+        "aperture": 1.85,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "sensor": "Sony IMX381",
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "camera.mainMP": 50,
+    "camera.mainAperture": 1.85,
+    "camera.mainSensor": "Samsung GN1",
+    "camera.ultrawideSensor": "Sony IMX381",
+    "camera.telephotoSensor": null,
+    "camera.telephotoZoom": null,
+    "camera.frontMP": 10.8,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "4K 60fps",
+    "battery.capacity": 4355,
+    "battery.wiredCharging": 20,
+    "battery.wirelessCharging": 20,
+    "battery.reverseCharging": true,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n14 / n20 / n25 / n28 / n30 / n38 / n40 / n41 / n48 / n66 / n71 / n77 / n78",
+    "connectivity.fiveGMmwave": "非対応",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B25 / B26 / B28 / B29 / B30 / B32 / B38 / B39 / B40 / B41 / B42 / B46 / B48 / B66 / B71",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "GO3Z5",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B7",
+          "B8",
+          "B18",
+          "B19",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B11",
+          "B21"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi-Fi 6 (802.11ax)",
+    "connectivity.bluetooth": "5.2",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Gen 2 Type-C",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 13",
+    "os.updateYears": 5,
+    "os.securityYears": 5,
+    "os.releaseYear": 2022,
+    "os.updateUntil": 2027,
+    "os.securityUntil": 2027,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（光学式）",
+    "biometrics.face": true
+  }
+}

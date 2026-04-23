@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/* ── Sticky table helpers ──────────────────────────────────────────── */
+
+/*
+ * .spec-header-th
+ *   stickyヘッダーセルの下ライン。border-collapse環境でも
+ *   スクロール時に正しく描画されるよう border ではなく box-shadow を使用。
+ */
+.spec-header-th {
+  box-shadow: 0 2px 0 0 #e5e7eb;
+}
+
+/*
+ * .spec-sticky-col
+ *   sticky左固定列の右側にシャドウを付けて奥行きを表現。
+ *   モバイルでは少し強め。
+ */
+.spec-sticky-col {
+  box-shadow: 3px 0 10px -2px rgba(0, 0, 0, 0.10);
+}
+
+@media (prefers-color-scheme: dark) {
+  .spec-header-th {
+    box-shadow: 0 2px 0 0 #374151;
+  }
+  .spec-sticky-col {
+    box-shadow: 3px 0 10px -2px rgba(0, 0, 0, 0.35);
+  }
+}
+
+/* ── Mobile scroll hint (右端フェード) ─────────────────────────────── */
+
+/*
+ * .spec-scroll-wrapper
+ *   テーブルを囲む relative コンテナ。
+ *   右端フェードで横スクロール可能であることを視覚的に示す。
+ *   sm 以上では非表示（::after を消す）。
+ */
+.spec-scroll-wrapper {
+  position: relative;
+}
+
+.spec-scroll-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 32px;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.90));
+  pointer-events: none;
+  border-radius: 0 0.75rem 0.75rem 0;
+  z-index: 30;
+}
+
+@media (min-width: 640px) {
+  .spec-scroll-wrapper::after {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .spec-scroll-wrapper::after {
+    background: linear-gradient(to right, transparent, rgba(17, 24, 39, 0.90));
+  }
+}
+
+/* ── ダークモード差分ハイライト強化 ─────────────────────────────── */
+
+/*
+ * SpecRow の diffColors でインラインクラスを使っているが、
+ * ダークモードでは opacity が低すぎて見えにくいため
+ * グローバルで上書きして視認性を高める。
+ */
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-emerald-900\/25 {
+    background-color: rgba(6, 78, 59, 0.55) !important;
+  }
+  .dark\:bg-rose-900\/25 {
+    background-color: rgba(136, 19, 55, 0.55) !important;
+  }
+}
+
+/*
+ * .spec-scroll-inner
+ *   テーブルのスクロール領域。-webkit-overflow-scrolling で iOS 慣性スクロール。
+ */
+.spec-scroll-inner {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+/* ── モバイル overscroll ───────────────────────────────────────────── */
+
+/*
+ * .spec-scroll-inner
+ *   テーブルのスクロール領域。-webkit-overflow-scrolling で iOS 慣性スクロール。
+ */
+.spec-scroll-inner {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}

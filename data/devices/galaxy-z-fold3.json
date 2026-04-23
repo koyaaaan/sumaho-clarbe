@@ -1,0 +1,137 @@
+{
+  "id": "galaxy-z-fold3",
+  "brandId": "samsung",
+  "name": "Galaxy Z Fold3",
+  "releaseDate": "2021-09-01",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-z-fold3.webp",
+  "specs": {
+    "basic.ipRating": "IPX8",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "display.size": 7.6,
+    "display.resolution": "QXGA+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 888",
+    "camera.mainMP": 12,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Samsung ISOCELL GW3",
+    "camera.telephotoZoom": 3,
+    "battery.capacity": 4400,
+    "battery.wiredCharging": 25,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n78 / n79 / n28 / n77",
+    "connectivity.fiveGMmwave": "n257",
+    "connectivity.fourGBands": "B1 / B3 / B19 / B21 / B28 / B41 / B42 / B8 / B18 / B26",
+    "connectivity.bandLock": "あり",
+    "connectivity.sim": "nano-SIM",
+    "os.initial": "Android 11 / One UI",
+    "os.updateYears": 4,
+    "os.securityYears": 5,
+    "os.releaseYear": 2021,
+    "os.updateUntil": 2025,
+    "os.securityUntil": 2026,
+    "basic.price": 237600,
+    "basic.weight": 271,
+    "basic.height": 158.2,
+    "basic.width": 128.1,
+    "basic.depth": 6.4,
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 12,
+        "sensor": "ISOCELL GW3",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 12,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2
+      }
+    ],
+    "camera.frontMP": 10,
+    "camera.frontAperture": 2.2,
+    "camera.ultrawideSensor": "IMX616",
+    "camera.telephotoSensor": "IMX616",
+    "camera.videoMaxRes": "4K 60fps",
+    "battery.wirelessCharging": 11,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 6 (802.11ax)",
+    "connectivity.bluetooth": "5.2",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Type-C",
+    "display.peakBrightness": 1200,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "側面指紋センサー",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 660",
+    "processor.process": "5nm",
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "connectivity.carrierBands": {
+      "shared": false,
+      "docomo": {
+        "modelNumber": "SC-55B",
+        "fiveG": [
+          "n78",
+          "n79",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B19",
+          "B21",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B18",
+          "B26"
+        ]
+      },
+      "au": {
+        "modelNumber": "SCG11",
+        "fiveG": [
+          "n28",
+          "n77",
+          "n78",
+          "n257"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B18",
+          "B28",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B19",
+          "B21"
+        ]
+      }
+    }
+  }
+}

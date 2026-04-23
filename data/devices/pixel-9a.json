@@ -1,0 +1,117 @@
+{
+  "id": "pixel-9a",
+  "brandId": "google",
+  "name": "Pixel 9a",
+  "releaseDate": "2025-04-16",
+  "region": "jp",
+  "imageUrl": "/images/pixel-9a.webp",
+  "specs": {
+    "basic.price": 79900,
+    "basic.weight": 186,
+    "basic.height": 154.7,
+    "basic.width": 73.3,
+    "basic.depth": 8.9,
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.rakuten": "○",
+    "variant.simfree": "○",
+    "display.size": 6.3,
+    "display.resolution": "2424x1080",
+    "display.refreshRate": 120,
+    "display.panelType": "pOLED",
+    "display.peakBrightness": 2700,
+    "processor.soc": "Google Tensor G4",
+    "processor.process": "4nm (Samsung)",
+    "processor.gpu": "Mali-G715",
+    "memory.ram": 8,
+    "memory.storageOptions": [
+      128,
+      256
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 48,
+        "sensor": "1/2.0-inch (非公表)",
+        "aperture": 1.7,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 13,
+        "sensor": "1/3.1-inch (非公表)",
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "camera.mainMP": 48,
+    "camera.mainAperture": 1.7,
+    "camera.mainSensor": "1/2.0-inch (非公表)",
+    "camera.ultrawideSensor": "1/3.1-inch (非公表)",
+    "camera.telephotoSensor": null,
+    "camera.telephotoZoom": null,
+    "camera.frontMP": 13,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "4K 60fps",
+    "battery.capacity": 5100,
+    "battery.wiredCharging": 23,
+    "battery.wirelessCharging": 7.5,
+    "battery.reverseCharging": false,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n14 / n20 / n25 / n26 / n28 / n29 / n30 / n38 / n40 / n41 / n48 / n66 / n70 / n71 / n75 / n76 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "n257 / n258 / n260 / n261",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B21 / B25 / B26 / B28 / B29 / B30 / B32 / B38 / B39 / B40 / B41 / B42 / B46 / B48 / B66 / B71",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "GC15S",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B7",
+          "B8",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B11"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 6E",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Gen 2 Type-C",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 15",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2025,
+    "os.updateUntil": 2032,
+    "os.securityUntil": 2032,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（光学式）",
+    "biometrics.face": true
+  }
+}

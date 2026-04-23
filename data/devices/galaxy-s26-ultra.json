@@ -1,0 +1,107 @@
+{
+  "id": "galaxy-s26-ultra",
+  "brandId": "samsung",
+  "name": "Galaxy S26 Ultra",
+  "releaseDate": "2026-01-22",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-s26-ultra.webp",
+  "specs": {
+    "basic.ipRating": "IP65/IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.simfree": "○",
+    "display.size": 6.9,
+    "display.resolution": "QHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Dynamic AMOLED 2X",
+    "processor.soc": "Snapdragon 8 Elite Gen 5",
+    "camera.mainMP": 200,
+    "camera.mainAperture": 1.4,
+    "camera.telephotoZoom": 5,
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 60,
+    "connectivity.fiveG": true,
+    "connectivity.bandLock": "なし",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 16 / One UI",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2026,
+    "os.updateUntil": 2033,
+    "os.securityUntil": 2033,
+    "basic.weight": 218,
+    "basic.height": 163,
+    "basic.width": 77.6,
+    "basic.depth": 8.2,
+    "memory.ram": 16,
+    "memory.storageOptions": [
+      256,
+      512,
+      1024
+    ],
+    "memory.storageType": "UFS 4.0",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 200,
+        "aperture": 1.4,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 50,
+        "aperture": 1.9,
+        "ois": false
+      },
+      {
+        "label": "望遠3x",
+        "mp": 50,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 3
+      },
+      {
+        "label": "望遠5x",
+        "mp": 50,
+        "aperture": 3.4,
+        "ois": true,
+        "zoom": 5
+      }
+    ],
+    "camera.frontMP": 12,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "8K 30fps",
+    "battery.wirelessCharging": 15,
+    "battery.reverseCharging": true,
+    "connectivity.wifi": "Wi-Fi 7 (802.11be)",
+    "connectivity.bluetooth": "5.4",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 3.2 Gen 1 Type-C",
+    "display.peakBrightness": 3000,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "超音波式（画面内）",
+    "biometrics.face": true,
+    "processor.gpu": "Adreno 840",
+    "processor.process": "2nm",
+    "variant.rakuten": null,
+    "basic.price": null,
+    "camera.mainSensor": null,
+    "camera.telephotoSensor": null,
+    "camera.ultrawideSensor": null,
+    "connectivity.fiveGMmwave": null,
+    "connectivity.fiveGSub6": null,
+    "connectivity.fourGBands": null,
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "未発表",
+        "fiveG": [],
+        "fourG": [],
+        "missingBands": []
+      }
+    }
+  }
+}

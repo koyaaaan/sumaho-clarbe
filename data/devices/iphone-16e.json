@@ -1,0 +1,108 @@
+{
+  "id": "iphone-16e",
+  "brandId": "apple",
+  "name": "iPhone 16e",
+  "releaseDate": "2025-02-28",
+  "region": "jp",
+  "imageUrl": "/images/iphone-16e.webp",
+  "specs": {
+    "basic.price": 99800,
+    "basic.weight": 167,
+    "basic.height": 146.7,
+    "basic.width": 71.5,
+    "basic.depth": 7.8,
+    "basic.ipRating": "IP68",
+    "variant.docomo": null,
+    "variant.au": null,
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": "○",
+    "display.size": 6.1,
+    "display.resolution": "2532x1170",
+    "display.refreshRate": 60,
+    "display.panelType": "Super Retina XDR OLED",
+    "display.peakBrightness": 1200,
+    "processor.soc": "A18",
+    "processor.process": "3nm",
+    "processor.gpu": "Apple GPU 4コア",
+    "memory.ram": 8,
+    "memory.storageOptions": [
+      128,
+      256,
+      512
+    ],
+    "memory.storageType": "NVMe",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 48,
+        "sensor": "Sony IMX982",
+        "aperture": 1.6,
+        "ois": true
+      }
+    ],
+    "camera.mainMP": 48,
+    "camera.mainAperture": 1.6,
+    "camera.mainSensor": "Sony IMX982",
+    "camera.ultrawideSensor": null,
+    "camera.telephotoSensor": null,
+    "camera.telephotoZoom": null,
+    "camera.frontMP": 12,
+    "camera.frontAperture": 1.9,
+    "camera.videoMaxRes": "4K 60fps",
+    "battery.capacity": 4005,
+    "battery.wiredCharging": 20,
+    "battery.wirelessCharging": 7.5,
+    "battery.reverseCharging": false,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n20 / n25 / n26 / n28 / n30 / n38 / n40 / n41 / n48 / n53 / n66 / n70 / n75 / n76 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "非対応",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B25 / B26 / B28 / B30 / B32 / B34 / B38 / B39 / B40 / B41 / B42 / B48 / B53 / B66 / B71",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "A3212",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B8",
+          "B18",
+          "B19",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B11",
+          "B21"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 6 (802.11ax)",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB-C (USB 2)",
+    "connectivity.sim": "nano-SIM + eSIM（デュアルeSIM対応）",
+    "os.initial": "iOS 18",
+    "os.updateYears": null,
+    "os.securityYears": null,
+    "os.releaseYear": 2025,
+    "os.updateUntil": null,
+    "os.securityUntil": null,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": null,
+    "biometrics.face": true
+  }
+}

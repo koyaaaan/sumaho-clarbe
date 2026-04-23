@@ -1,0 +1,143 @@
+{
+  "id": "galaxy-a54",
+  "brandId": "samsung",
+  "name": "Galaxy A54 5G",
+  "releaseDate": "2023-05-25",
+  "region": "jp",
+  "imageUrl": "/images/galaxy-a54.webp",
+  "specs": {
+    "basic.price": null,
+    "basic.weight": 201,
+    "basic.height": 158.2,
+    "basic.width": 76.7,
+    "basic.depth": 8.2,
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": null,
+    "display.size": 6.4,
+    "display.resolution": "FHD+",
+    "display.refreshRate": 120,
+    "display.panelType": "Super AMOLED",
+    "display.peakBrightness": 1000,
+    "processor.soc": "Exynos 1380",
+    "processor.process": "5nm",
+    "processor.gpu": "Mali-G68 MP5",
+    "memory.ram": 6,
+    "memory.storageOptions": [
+      128
+    ],
+    "memory.storageType": "UFS 2.2",
+    "memory.expandable": true,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 50,
+        "sensor": "Sony IMX766",
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "sensor": "Sony IMX258",
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "マクロ",
+        "mp": 5,
+        "sensor": "非公表",
+        "aperture": 2.4,
+        "ois": false
+      }
+    ],
+    "camera.mainMP": 50,
+    "camera.mainAperture": 1.8,
+    "camera.mainSensor": "Sony IMX766",
+    "camera.ultrawideSensor": "Sony IMX258",
+    "camera.telephotoSensor": null,
+    "camera.telephotoZoom": null,
+    "camera.frontMP": 32,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "4K 30fps",
+    "battery.capacity": 5000,
+    "battery.wiredCharging": 25,
+    "battery.wirelessCharging": null,
+    "battery.reverseCharging": false,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n3 / n28 / n41 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": null,
+    "connectivity.fourGBands": "B1 / B3 / B8 / B18 / B19 / B21 / B26 / B28 / B41 / B42",
+    "connectivity.bandLock": "あり（キャリア版）",
+    "connectivity.carrierBands": {
+      "shared": false,
+      "docomo": {
+        "modelNumber": "SC-53D",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B19",
+          "B21",
+          "B28",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B18",
+          "B26",
+          "B41"
+        ]
+      },
+      "au": {
+        "modelNumber": "SCG21",
+        "fiveG": [
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B18",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B8",
+          "B19",
+          "B21",
+          "B26"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 6",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB Type-C",
+    "connectivity.sim": "nano-SIM / eSIM",
+    "os.initial": "Android 13 / One UI",
+    "os.updateYears": 4,
+    "os.securityYears": 5,
+    "os.releaseYear": 2023,
+    "os.updateUntil": 2027,
+    "os.securityUntil": 2028,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（光学式）",
+    "biometrics.face": true
+  }
+}

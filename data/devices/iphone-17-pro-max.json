@@ -1,0 +1,123 @@
+{
+  "id": "iphone-17-pro-max",
+  "brandId": "apple",
+  "name": "iPhone 17 Pro Max",
+  "releaseDate": "2025-09-19",
+  "region": "jp",
+  "imageUrl": "/images/iphone-17-pro-max.webp",
+  "specs": {
+    "basic.price": 194800,
+    "basic.weight": 233,
+    "basic.height": 163.4,
+    "basic.width": 78,
+    "basic.depth": 8.75,
+    "basic.ipRating": "IP68",
+    "variant.docomo": null,
+    "variant.au": null,
+    "variant.softbank": null,
+    "variant.rakuten": null,
+    "variant.simfree": "○",
+    "display.size": 6.9,
+    "display.resolution": "2868x1320",
+    "display.refreshRate": 120,
+    "display.panelType": "Super Retina XDR OLED",
+    "display.peakBrightness": 3000,
+    "processor.soc": "A19 Pro",
+    "processor.process": "3nm",
+    "processor.gpu": "Apple GPU 6コア",
+    "memory.ram": 12,
+    "memory.storageOptions": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "memory.storageType": "NVMe",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 48,
+        "sensor": "Sony IMX903",
+        "aperture": 1.78,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 48,
+        "sensor": "Sony IMX972",
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "label": "望遠",
+        "mp": 48,
+        "sensor": "Sony IMX973",
+        "aperture": 2.8,
+        "ois": true,
+        "zoom": 4
+      }
+    ],
+    "camera.mainMP": 48,
+    "camera.mainAperture": 1.78,
+    "camera.mainSensor": "Sony IMX903",
+    "camera.ultrawideSensor": "Sony IMX972",
+    "camera.telephotoSensor": "Sony IMX973",
+    "camera.telephotoZoom": 4,
+    "camera.frontMP": 18,
+    "camera.frontAperture": 1.9,
+    "camera.videoMaxRes": "8K",
+    "battery.capacity": 5088,
+    "battery.wiredCharging": 20,
+    "battery.wirelessCharging": 25,
+    "battery.reverseCharging": false,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n14 / n20 / n25 / n26 / n28 / n29 / n30 / n38 / n40 / n41 / n48 / n53 / n66 / n70 / n71 / n75 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "非対応",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B11 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B21 / B25 / B26 / B28 / B29 / B30 / B32 / B34 / B38 / B39 / B40 / B41 / B42 / B48 / B53 / B66 / B71",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "A3525",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B8",
+          "B11",
+          "B18",
+          "B19",
+          "B21",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": []
+      }
+    },
+    "connectivity.wifi": "Wi‑Fi 7 (802.11be)",
+    "connectivity.bluetooth": "6",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB-C (USB 3)",
+    "connectivity.sim": "デュアルeSIM（物理SIM非対応）",
+    "os.initial": "iOS 26",
+    "os.updateYears": null,
+    "os.securityYears": null,
+    "os.releaseYear": 2025,
+    "os.updateUntil": null,
+    "os.securityUntil": null,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": null,
+    "biometrics.face": true
+  }
+}

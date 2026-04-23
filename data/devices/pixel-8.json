@@ -1,0 +1,117 @@
+{
+  "id": "pixel-8",
+  "brandId": "google",
+  "name": "Pixel 8",
+  "releaseDate": "2023-10-12",
+  "region": "jp",
+  "imageUrl": "/images/pixel-8.webp",
+  "specs": {
+    "basic.price": 112900,
+    "basic.weight": 187,
+    "basic.height": 150.5,
+    "basic.width": 70.8,
+    "basic.depth": 8.9,
+    "basic.ipRating": "IP68",
+    "variant.docomo": "○",
+    "variant.au": "○",
+    "variant.softbank": "○",
+    "variant.rakuten": "○",
+    "variant.simfree": "○",
+    "display.size": 6.2,
+    "display.resolution": "2400x1080",
+    "display.refreshRate": 120,
+    "display.panelType": "Actua OLED",
+    "display.peakBrightness": 2000,
+    "processor.soc": "Google Tensor G3",
+    "processor.process": "4nm (Samsung)",
+    "processor.gpu": "Mali-G715",
+    "memory.ram": 8,
+    "memory.storageOptions": [
+      128,
+      256
+    ],
+    "memory.storageType": "UFS 3.1",
+    "memory.expandable": false,
+    "camera.rearModules": [
+      {
+        "label": "広角",
+        "mp": 50,
+        "sensor": "Samsung GNV",
+        "aperture": 1.68,
+        "ois": true
+      },
+      {
+        "label": "超広角",
+        "mp": 12,
+        "sensor": "Sony IMX386",
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "camera.mainMP": 50,
+    "camera.mainAperture": 1.68,
+    "camera.mainSensor": "Samsung GNV",
+    "camera.ultrawideSensor": "Sony IMX386",
+    "camera.telephotoSensor": null,
+    "camera.telephotoZoom": null,
+    "camera.frontMP": 10.5,
+    "camera.frontAperture": 2.2,
+    "camera.videoMaxRes": "4K 60fps",
+    "battery.capacity": 4575,
+    "battery.wiredCharging": 27,
+    "battery.wirelessCharging": 18,
+    "battery.reverseCharging": true,
+    "connectivity.fiveG": true,
+    "connectivity.fiveGSub6": "n1 / n2 / n3 / n5 / n7 / n8 / n12 / n14 / n20 / n25 / n26 / n28 / n30 / n38 / n40 / n41 / n66 / n71 / n75 / n77 / n78 / n79",
+    "connectivity.fiveGMmwave": "非対応",
+    "connectivity.fourGBands": "B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B21 / B25 / B26 / B28 / B29 / B30 / B32 / B38 / B39 / B40 / B41 / B42 / B48 / B66 / B71",
+    "connectivity.bandLock": "なし",
+    "connectivity.carrierBands": {
+      "shared": true,
+      "simfree": {
+        "modelNumber": "G9BQD",
+        "fiveG": [
+          "n1",
+          "n3",
+          "n28",
+          "n41",
+          "n77",
+          "n78",
+          "n79"
+        ],
+        "fourG": [
+          "B1",
+          "B3",
+          "B5",
+          "B7",
+          "B8",
+          "B18",
+          "B19",
+          "B21",
+          "B26",
+          "B28",
+          "B41",
+          "B42"
+        ],
+        "missingBands": [
+          "B11"
+        ]
+      }
+    },
+    "connectivity.wifi": "Wi-Fi 7 (802.11be)",
+    "connectivity.bluetooth": "5.3",
+    "connectivity.nfc": true,
+    "connectivity.usb": "USB 2.0 Type-C",
+    "connectivity.sim": "nano-SIM + eSIM",
+    "os.initial": "Android 14",
+    "os.updateYears": 7,
+    "os.securityYears": 7,
+    "os.releaseYear": 2023,
+    "os.updateUntil": 2030,
+    "os.securityUntil": 2030,
+    "audio.stereoSpeaker": true,
+    "audio.headphoneJack": false,
+    "biometrics.fingerprint": "画面内（光学式）",
+    "biometrics.face": true
+  }
+}
