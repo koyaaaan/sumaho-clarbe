@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "スマホクラーベ - 価格・サイズ・性能を比べて選べる",
+  title: "スマホクラーベ | 価格・サイズ・性能を比べて選べる",
   description:
     "Galaxy・iPhone・Pixelなど主要スマホのスペックを見やすく比較。価格・サイズ・性能・回線バンドをまとめて確認できる日本市場向けスマートフォン比較サービス。",
 };
