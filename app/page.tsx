@@ -238,6 +238,21 @@ export default function Home() {
         onSelectPreset={handleSelectPreset}
       />
 
+      {/* 楽天導線 */}
+      <div className="mt-6 rounded-xl border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-900">
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          比較した機種の購入先を確認できます
+        </p>
+        <a
+          href="https://example.com/rakuten-link"
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="mt-3 inline-flex rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+        >
+          楽天で見る
+        </a>
+      </div>
+
       {/* フッター */}
       <footer className="mt-12 border-t border-gray-200 py-6 text-center text-xs text-gray-400 dark:border-gray-800">
         <p>スマホクラーベ — スマートフォン スペック比較 | データは各メーカー公式サイトに基づく</p>
