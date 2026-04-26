@@ -244,7 +244,7 @@ export default function Home() {
           比較した機種の購入先を確認できます
         </p>
         <a
-          href="https://example.com/rakuten-link"
+          href="https://a.r10.to/hkdHoZ"
           target="_blank"
           rel="noopener noreferrer sponsored"
           className="mt-3 inline-flex rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white transition-opacity hover:opacity-90"
