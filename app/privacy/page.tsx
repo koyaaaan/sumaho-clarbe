@@ -103,8 +103,8 @@ export default function PrivacyPage() {
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
             10. お問い合わせ
           </h2>
-          <p>運営者名: [運営者名]</p>
-          <p>連絡先: [メールアドレスまたはお問い合わせURL]</p>
+          <p>運営者名: [Yohaku Cast]</p>
+          <p>連絡先: [yohakuworks0@gmail.com]</p>
         </section>
       </div>
     </main>
