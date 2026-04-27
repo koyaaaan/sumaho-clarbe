@@ -255,8 +255,16 @@ export default function Home() {
 
       {/* フッター */}
       <footer className="mt-12 border-t border-gray-200 py-6 text-center text-xs text-gray-400 dark:border-gray-800">
-        <p>スマホクラーベ — スマートフォン スペック比較 | データは各メーカー公式サイトに基づく</p>
-      </footer>
+  <p>スマホクラーベ — スマートフォン スペック比較 | データは各メーカー公式サイトに基づく</p>
+  <div className="mt-2">
+    <a
+      href="/privacy"
+      className="text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
+    >
+      プライバシーポリシー
+    </a>
+  </div>
+</footer>
     </div>
   );
 }
