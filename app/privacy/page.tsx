@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "プライバシーポリシー | スマホクラーベ",
 };
@@ -5,12 +7,12 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-      <a
+<Link
   href="/"
   className="mb-6 inline-flex text-sm text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
 >
   ← トップへ戻る
-</a>
+</Link>
 
       <h1 className="mb-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
         プライバシーポリシー
