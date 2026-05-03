@@ -7,12 +7,12 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-<Link
-  href="/"
-  className="mb-6 inline-flex text-sm text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
->
-  ← トップへ戻る
-</Link>
+      <Link
+        href="/"
+        className="mb-6 inline-flex text-sm text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
+      >
+        ← トップへ戻る
+      </Link>
 
       <h1 className="mb-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
         プライバシーポリシー
@@ -28,8 +28,8 @@ export default function PrivacyPage() {
             1. 事業者情報
           </h2>
           <p>サイト名: スマホクラーベ</p>
-          <p>運営者名: [Yohaku Cast]</p>
-          <p>連絡先: [yohakuworks0@gmail.com]</p>
+          <p>運営者名: Yohaku Cast</p>
+          <p>連絡先: yohakuworks0@gmail.com</p>
         </section>
 
         <section>
@@ -66,54 +66,78 @@ export default function PrivacyPage() {
             4. 広告について
           </h2>
           <p>当サイトは、第三者配信の広告サービスを利用する場合があります。</p>
-          <p>第三者配信事業者（Google を含む）は、利用者の過去のアクセス情報に基づき、Cookie を使用して広告を配信することがあります。</p>
+          <p>
+            第三者配信事業者（Google を含む）は、利用者の過去のアクセス情報に基づき、Cookie を使用して広告を配信することがあります。
+          </p>
           <p>利用者は、広告設定によりパーソナライズ広告を無効にできます。</p>
-          <p>※ 実際に導入している広告サービス名が確定したら、広告サービス名や各社のプライバシーポリシーURL等を追記してください。</p>
         </section>
 
         <section>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-            5. Cookie について
+            5. アフィリエイトについて
           </h2>
-          <p>当サイトでは、利便性向上、利用状況分析、広告配信のために Cookie を使用することがあります。</p>
+          <p>当サイトは、各種アフィリエイトプログラムに参加する場合があります。</p>
+          <p>
+            当サイト内のリンクを経由して商品・サービスを購入または申し込みされた場合、当サイトが報酬を受け取ることがあります。
+          </p>
+          <p>
+            掲載している商品・サービスの価格、在庫、契約条件等は、リンク先の販売事業者または提供事業者の情報をご確認ください。
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            6. Cookie について
+          </h2>
+          <p>
+            当サイトでは、利便性向上、利用状況分析、広告配信のために Cookie を使用することがあります。
+          </p>
           <p>Cookie は、利用者のブラウザ設定により無効化できます。</p>
         </section>
 
         <section>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-            6. アクセス解析について
+            7. アクセス解析について
           </h2>
-          <p>当サイトでは、アクセス解析ツールを利用する場合があります。これらのツールは、トラフィックデータ収集のために Cookie 等を利用することがあります。</p>
+          <p>
+            当サイトでは、アクセス解析ツールを利用する場合があります。これらのツールは、トラフィックデータ収集のために Cookie 等を利用することがあります。
+          </p>
           <p>この情報は匿名で収集され、特定の個人を直接識別するものではありません。</p>
         </section>
 
         <section>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-            7. 個人情報の第三者提供
+            8. 個人情報の第三者提供
           </h2>
-          <p>当サイトは、法令に基づく場合を除き、利用者本人の同意なく個人情報を第三者へ提供しません。</p>
+          <p>
+            当サイトは、法令に基づく場合を除き、利用者本人の同意なく個人情報を第三者へ提供しません。
+          </p>
         </section>
 
         <section>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-            8. 外部サービスへのリンク
+            9. 外部サービスへのリンク
           </h2>
-          <p>当サイトには、外部サイトへのリンクが含まれる場合があります。リンク先サイトにおける個人情報等の取扱いについて、当サイトは責任を負いません。</p>
+          <p>
+            当サイトには、外部サイトへのリンクが含まれる場合があります。リンク先サイトにおける個人情報等の取扱いについて、当サイトは責任を負いません。
+          </p>
         </section>
 
         <section>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-            9. プライバシーポリシーの変更
+            10. プライバシーポリシーの変更
           </h2>
-          <p>本ポリシーは、必要に応じて変更することがあります。変更後の内容は、当サイト上に掲載した時点から効力を生じるものとします。</p>
+          <p>
+            本ポリシーは、必要に応じて変更することがあります。変更後の内容は、当サイト上に掲載した時点から効力を生じるものとします。
+          </p>
         </section>
 
         <section>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-            10. お問い合わせ
+            11. お問い合わせ
           </h2>
-          <p>運営者名: [Yohaku Cast]</p>
-          <p>連絡先: [yohakuworks0@gmail.com]</p>
+          <p>運営者名: Yohaku Cast</p>
+          <p>連絡先: yohakuworks0@gmail.com</p>
         </section>
       </div>
     </main>
