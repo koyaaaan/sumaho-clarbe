@@ -253,18 +253,25 @@ export default function Home() {
         </a>
       </div>
 
-      {/* フッター */}
-      <footer className="mt-12 border-t border-gray-200 py-6 text-center text-xs text-gray-400 dark:border-gray-800">
-  <p>スマホクラーベ — スマートフォン スペック比較 | データは各メーカー公式サイトに基づく</p>
-  <div className="mt-2">
-    <a
-      href="/privacy"
-      className="text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
-    >
-      プライバシーポリシー
-    </a>
-  </div>
-</footer>
+           {/* フッター */}
+           <footer className="mt-12 border-t border-gray-200 py-6 text-center text-xs text-gray-400 dark:border-gray-800">
+        <p>スマホクラーベ — スマートフォン スペック比較 | データは各メーカー公式サイトに基づく</p>
+        <div className="mt-2 flex items-center justify-center gap-3">
+          <a
+            href="/privacy"
+            className="text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
+          >
+            プライバシーポリシー
+          </a>
+          <span className="text-gray-300 dark:text-gray-700">/</span>
+          <a
+            href="/contact"
+            className="text-gray-500 underline-offset-2 hover:underline dark:text-gray-400"
+          >
+            お問い合わせ
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
