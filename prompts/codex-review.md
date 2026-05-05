@@ -42,8 +42,9 @@ Claude Codeが行った変更について、以下を確認してください。
 ## 出力形式
 
 以下の形式で日本語で出力してください。
+`<<<CODEX_REVIEW_RESULT_START>>>` と `<<<CODEX_REVIEW_RESULT_END>>>` のマーカー行も、そのまま出力に含めてください。
 
-```text
+<<<CODEX_REVIEW_RESULT_START>>>
 # Codexレビュー結果
 
 ## 判定
@@ -63,4 +64,4 @@ Claude Codeが行った変更について、以下を確認してください。
 
 ## 理由
 - 
-```
+<<<CODEX_REVIEW_RESULT_END>>>
