@@ -392,6 +392,22 @@
     "imageUrl": "/images/galaxy-z-fold4.webp"
   },
   {
+    "id": "iphone-14-pro-max",
+    "brandId": "apple",
+    "name": "iPhone 14 Pro Max",
+    "releaseDate": "2022-09-16",
+    "region": "jp",
+    "imageUrl": "/images/iphone-14-pro-max.webp"
+  },
+  {
+    "id": "iphone-14-pro",
+    "brandId": "apple",
+    "name": "iPhone 14 Pro",
+    "releaseDate": "2022-09-16",
+    "region": "jp",
+    "imageUrl": "/images/iphone-14-pro.webp"
+  },
+  {
     "id": "iphone-14",
     "brandId": "apple",
     "name": "iPhone 14",
