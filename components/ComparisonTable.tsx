@@ -17,6 +17,7 @@ const BRAND_ACCENT: Record<string, string> = {
   samsung: "bg-blue-400",
   apple:   "bg-slate-400",
   google:  "bg-green-400",
+  sony:    "bg-gray-700",
 };
 
 // 空状態に表示する人気の比較プリセット
