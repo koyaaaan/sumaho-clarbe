@@ -208,6 +208,22 @@
     "imageUrl": "/images/galaxy-z-fold6.webp"
   },
   {
+    "id": "xperia-10-vi",
+    "brandId": "sony",
+    "name": "Xperia 10 VI",
+    "releaseDate": "2024-07-05",
+    "region": "jp",
+    "imageUrl": "/images/xperia-10-vi.webp"
+  },
+  {
+    "id": "xperia-1-vi",
+    "brandId": "sony",
+    "name": "Xperia 1 VI",
+    "releaseDate": "2024-06-21",
+    "region": "jp",
+    "imageUrl": "/images/xperia-1-vi.webp"
+  },
+  {
     "id": "galaxy-a55",
     "brandId": "samsung",
     "name": "Galaxy A55 5G",
