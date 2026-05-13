@@ -77,7 +77,7 @@ const BRANDS = [
     id: "apple",
     label: "iPhone を見る",
     emoji: "📱",
-    desc: "28機種",
+    desc: "30機種",
     accent: "from-gray-600 to-gray-800",
     ring: "ring-gray-200",
     hover: "hover:bg-gray-50",
@@ -92,6 +92,16 @@ const BRANDS = [
     ring: "ring-green-200",
     hover: "hover:bg-green-50",
     text: "text-green-700",
+  },
+  {
+    id: "sony",
+    label: "Xperia を見る",
+    emoji: "📷",
+    desc: "2機種",
+    accent: "from-red-500 to-rose-600",
+    ring: "ring-red-100",
+    hover: "hover:bg-rose-50",
+    text: "text-rose-700",
   },
 ] as const;
 
@@ -189,7 +199,7 @@ export default function LandingPage({
         <h2 className="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">
           ブランドから選ぶ
         </h2>
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           {BRANDS.map((brand) => (
             <button
               key={brand.id}

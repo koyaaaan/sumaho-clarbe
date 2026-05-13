@@ -14,6 +14,13 @@ import ComparisonTable from "@/components/ComparisonTable";
 import ShareButton from "@/components/ShareButton";
 import LandingPage from "@/components/LandingPage";
 
+const BRAND_SEARCH_TERM: Record<string, string> = {
+  samsung: "Galaxy",
+  apple: "iPhone",
+  google: "Pixel",
+  sony: "Xperia",
+};
+
 export default function Home() {
   const [state, dispatch] = useReducer(comparisonReducer, initialState);
   const deviceList = getDeviceList();
@@ -21,6 +28,7 @@ export default function Home() {
 
   // ランディングページを強制非表示にするフラグ
   const [forceComparison, setForceComparison] = useState(false);
+  const [autoFilter, setAutoFilter] = useState("");
   const selectorRef = useRef<HTMLDivElement>(null);
 
   // ===== 初期化: URLから状態復元 + カテゴリ全有効化 =====
@@ -98,7 +106,8 @@ export default function Home() {
     }, 50);
   }, []);
 
-  const handleBrandSelect = useCallback((_brandId: string) => {
+  const handleBrandSelect = useCallback((brandId: string) => {
+    setAutoFilter(BRAND_SEARCH_TERM[brandId] ?? brandId);
     setForceComparison(true);
     setTimeout(() => {
       selectorRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -144,6 +153,7 @@ export default function Home() {
           onClick={() => {
             dispatch({ type: "CLEAR_ALL" });
             setForceComparison(false);
+            setAutoFilter("");
           }}
           className="group flex shrink-0 items-center gap-2 transition"
           title="トップへ戻る"
@@ -169,6 +179,7 @@ export default function Home() {
             deviceList={deviceList}
             selectedIds={state.selectedIds}
             onSelect={handleAddDevice}
+            autoFilter={autoFilter}
           />
           <ShareButton
             selectedIds={state.selectedIds}
