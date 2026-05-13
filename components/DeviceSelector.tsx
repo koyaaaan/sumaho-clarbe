@@ -1,13 +1,13 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import type { DeviceListItem } from "@/types/device";
-import { formatBrandName } from "@/lib/formatters";
 
 interface Props {
   deviceList: DeviceListItem[];
   selectedIds: readonly string[];
   onSelect: (id: string) => void;
+  autoFilter?: string;
 }
 
 // ===== シリーズ分類ロジック =====
@@ -65,10 +65,17 @@ const PRESETS = [
   { label: "最新ハイエンド比較", ids: ["galaxy-s26-ultra", "iphone-16-pro-max", "pixel-9-pro"] },
 ];
 
-export default function DeviceSelector({ deviceList, selectedIds, onSelect }: Props) {
+export default function DeviceSelector({ deviceList, selectedIds, onSelect, autoFilter }: Props) {
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [presetsOpen, setPresetsOpen] = useState(true);
+
+  useEffect(() => {
+    if (autoFilter) {
+      setQuery(autoFilter);
+      setIsOpen(true);
+    }
+  }, [autoFilter]);
 
   const available = useMemo(
     () => deviceList.filter((d) => !selectedIds.includes(d.id)),
